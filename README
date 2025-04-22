@@ -1,0 +1,34 @@
+# Conversor de Moedas - Challenger da Fase Tech Foundation - ONE | Alura Latam
+
+Este projeto foi desenvolvido como parte do desafio da fase Tech Foundation da Especialização Back-End do programa ONE (Oracle Next Education) em parceria com a Alura Latam.
+O objetivo é criar um conversor de moedas via linha de comando que consulta taxas de câmbio de uma API externa em tempo real.
+
+## Funcionalidades
+
+* Converte valores entre seis pares de moedas diferentes:
+    * USD para BRL
+    * BRL para USD
+    * EUR para BRL
+    * BRL para EUR
+    * GBP para BRL
+    * BRL para GBP
+* Utiliza a API ExchangeRate para obter as taxas de câmbio atualizadas.
+* Interface de menu interativa via console para facilitar o uso.
+* Persiste os dados de cotação em arquivo JSON.
+
+## Tecnologias Utilizadas
+
+* Java 21 (ou versão utilizada)
+* Maven
+* exchangerate-api.com
+* Gson (para processamento de JSON)
+* java.net.http (para realizar requisições HTTP)
+
+
+Possíveis Melhorias
+Implementar uma interface gráfica com o usuário (GUI).
+Adicionar suporte a mais moedas.
+Implementar um histórico de conversões.
+Adicionar tratamento de erros mais robusto.
+Autor
+Luciane de Castro
